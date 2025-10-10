@@ -3,12 +3,26 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Chanuka Jayarathna — Portfolio</title>
+  <title>Chanuka Jayarathna | Software Engineer | Portfolio</title>
   <meta name="description" content="Portfolio of Chanuka Jayarathna — Research, AI experiments, Product & UX work, writing, and contact." />
   <meta property="og:title" content="Chanuka Jayarathna — Portfolio">
   <meta property="og:description" content="Research, AI experiments, Product & UX work, writing, and contact.">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#0d0d0d" />
+  
+  <!-- Favicon - Round Design -->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Home-Favicon.png">
+  <link rel="shortcut icon" href="assets/img/Home-Favicon.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/Home-Favicon.png">
+  <meta name="msapplication-TileImage" content="assets/img/Home-Favicon.png">
+  <meta name="msapplication-TileColor" content="#0d0d0d">
+  <style>
+    /* Rounded favicon styling for browsers that support it */
+    link[rel="icon"] {
+      border-radius: 50%;
+    }
+  </style>
+  
   <!-- Brand icons -->
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-vWQkqGUN5M7i3jFz4b3q1wQj7x7tCqkmO1XZkN0O8f4UcK3Qw0q1SwK4udoV9QZ9JbV2wJY9tbhhD8ElG7w8gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,7 +33,7 @@
   <header class="site-header" id="home">
     <nav class="nav" aria-label="Primary">
       <div class="brand">
-        <a href="#home" class="brand__name">Chanuka <span>Jayarathna</span></a>
+        <a href="#home" class="brand__name"><strong>Chanuka</strong> <span style="font-weight:700; text-transform:uppercase;">Jayarathna</span></a>
       </div>
       <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
         <span class="bar"></span><span class="bar"></span><span class="bar"></span>
@@ -30,7 +44,7 @@
         <li><a href="#research" class="nav__link">Research &amp; AI Experiments</a></li>
         <li><a href="#work" class="nav__link">Work</a></li>
         <li><a href="#writing" class="nav__link">Writing</a></li>
-        <li><a class="btn btn--ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">Connect</a></li>
+        <li><a class="btn btn--ghost" href="https://www.linkedin.com/in/chanuka-jayarathna/" target="_blank" rel="noopener">Connect</a></li>
       </ul>
     </nav>
   </header>
@@ -39,7 +53,7 @@
     <!-- HERO -->
     <section class="hero section">
       <div class="hero__media">
-        <img src="assets/img/home-hero.jpg" alt="Portrait and hero composition for Chanuka Jayarathna" width="1200" height="700" />
+        <img src="assets/img/home-hero.png" alt="Portrait and hero composition for Chanuka Jayarathna" width="1200" height="700" />
       </div>
       <div class="hero__content">
         <h1>Hi, I'm <span>Chanuka Jayarathna</span></h1>
@@ -49,25 +63,26 @@
         </p>
         <div class="hero__cta">
           <a class="btn" href="#about">More About Me</a>
-          <a class="btn btn--ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">Connect</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/chanuka-jayarathna/" target="_blank" rel="noopener">Connect</a>
         </div>
+        
       </div>
     </section>
 
     <!-- LOGOS / PRESENCE -->
-    <section class="presence section" aria-labelledby="presenceTitle">
-      <h2 id="presenceTitle" class="section__title">Around the web • Partners • Tools</h2>
-      <p class="section__kicker">Inspired by your <em>home1.png</em> concept</p>
+    <section class="presence section" aria-labelledby="presenceTitle" style="background-color: #000; color: #fff;">
+      <h2 id="presenceTitle" class="section__title" style="color: #fff;">Around the web • Partners • Tools</h2>
+      <p class="section__kicker" style="color: #fff;">Inspired by your <em>home1.png</em> concept</p>
       <ul class="logo-row" role="list">
-        <li title="Saegis Campus"><img src="assets/img/home-logos.png" alt="Saegis Campus and platforms montage" width="1280" height="180"></li>
-        <li><a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li><a href="https://www.figma.com/" aria-label="Figma" target="_blank" rel="noopener"><i class="fa-brands fa-figma"></i></a></li>
-        <li><a href="https://github.com/" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
-        <li><a href="https://aws.amazon.com/" aria-label="AWS" target="_blank" rel="noopener"><i class="fa-brands fa-aws"></i></a></li>
-        <li><a href="https://medium.com/" aria-label="Medium" target="_blank" rel="noopener"><i class="fa-brands fa-medium"></i></a></li>
-        <li><a href="https://www.behance.net/" aria-label="Behance" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-        <li><a href="https://dribbble.com/" aria-label="Dribbble" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
-        <li><a href="https://stackoverflow.com/users/" aria-label="Stack Overflow" target="_blank" rel="noopener"><i class="fa-brands fa-stack-overflow"></i></a></li>
+      <li title="Saegis Campus"><img src="assets/img/home-logos.png" alt="Saegis Campus and platforms montage" width="1280" height="180"></li>
+      <li><a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener" style="color: #fff;"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="https://www.figma.com/" aria-label="Figma" target="_blank" rel="noopener" style="color: #fff;"><i class="fa-brands fa-figma"></i></a></li>
+      <li><a href="https://github.com/" aria-label="GitHub" target="_blank" rel="noopener" style="color: #fff;"><i class="fa-brands fa-github"></i></a></li>
+      <li><a href="https://aws.amazon.com/" aria-label="AWS" target="_blank" rel="noopener" style="color: #fff;"><i class="fa-brands fa-aws"></i></a></li>
+      <li><a href="https://medium.com/" aria-label="Medium" target="_blank" rel="noopener" style="color: #fff;"><i class="fa-brands fa-medium"></i></a></li>
+      <li><a href="https://www.behance.net/" aria-label="Behance" target="_blank" rel="noopener" style="color: #fff;"><i class="fa-brands fa-behance"></i></a></li>
+      <li><a href="https://dribbble.com/" aria-label="Dribbble" target="_blank" rel="noopener" style="color: #fff;"><i class="fa-brands fa-dribbble"></i></a></li>
+      <li><a href="https://stackoverflow.com/users/" aria-label="Stack Overflow" target="_blank" rel="noopener" style="color: #fff;"><i class="fa-brands fa-stack-overflow"></i></a></li>
       </ul>
     </section>
 
@@ -75,8 +90,7 @@
     <section id="about" class="about section">
       <div class="about__grid">
         <div class="about__media">
-          <img src="assets/img/home-about-1.png" alt="About section visual 1" loading="lazy" width="640" height="480">
-          <img src="assets/img/home-about-2.png" alt="About section visual 2" loading="lazy" width="640" height="480">
+          <img src="assets/img/about-image.png" alt="About section visual" loading="lazy" width="1000" height="5000">
         </div>
         <div class="about__content">
           <h2 class="section__title">About</h2>
@@ -99,39 +113,67 @@
 
     <!-- RESEARCH & AI EXPERIMENTS -->
     <section id="research" class="section research">
-      <div class="section__head">
-        <h2 class="section__title">Research &amp; AI Experiments</h2>
-        <p class="muted">Four highlights (placeholders) — swap with your real case studies.</p>
+      <div class="research__hero">
+        <div class="research__content">
+          <span class="research__label">CASE STUDY</span>
+          <h2 class="research__title">Generate AI audio overviews with Copilot in SharePoint News</h2>
+          <p class="research__description">
+            An AI-powered news feed in SharePoint that turns updates into quick briefings with hands-free playback controls, helping teams catch up fast and stay aligned.
+          </p>
+          <button class="research__cta">COMING SOON</button>
+        </div>
+        <div class="research__visual">
+          <div class="audio-wave"></div>
+          <div class="copilot-icon"></div>
+        </div>
       </div>
-      <div class="card-grid">
-        <article class="card" data-category="research">
-          <img src="assets/img/home-research-1.png" alt="Research item 1" loading="lazy">
-          <div class="card__body">
-            <h3>LLM Prompt Robustness</h3>
-            <p>Designing evals to reduce regression and keep outputs aligned with expectations.</p>
-          </div>
-        </article>
-        <article class="card" data-category="research">
-          <img src="assets/img/home-research-2.png" alt="Research item 2" loading="lazy">
-          <div class="card__body">
-            <h3>Human-in-the-Loop UX</h3>
-            <p>Balancing control and automation with confidence cues &amp; reversible actions.</p>
-          </div>
-        </article>
-        <article class="card" data-category="research">
-          <img src="assets/img/home-research-3.png" alt="Research item 3" loading="lazy">
-          <div class="card__body">
-            <h3>Latency-Aware Flows</h3>
-            <p>Progressive disclosure and streaming strategies for slow AI operations.</p>
-          </div>
-        </article>
-        <article class="card" data-category="research">
-          <img src="assets/img/home-research-4.png" alt="Research item 4" loading="lazy">
-          <div class="card__body">
-            <h3>Eval-Driven Iteration</h3>
-            <p>Closing the loop with analytics, feedback, and lightweight decision docs.</p>
-          </div>
-        </article>
+    </section>
+    <section id="research" class="section research">
+      <div class="research__hero">
+        <div class="research__content">
+          <span class="research__label">CASE STUDY</span>
+          <h2 class="research__title">Generate AI audio overviews with Copilot in SharePoint News</h2>
+          <p class="research__description">
+            An AI-powered news feed in SharePoint that turns updates into quick briefings with hands-free playback controls, helping teams catch up fast and stay aligned.
+          </p>
+          <button class="research__cta">COMING SOON</button>
+        </div>
+        <div class="research__visual">
+          <div class="audio-wave"></div>
+          <div class="copilot-icon"></div>
+        </div>
+      </div>
+    </section>
+    <section id="research" class="section research">
+      <div class="research__hero">
+        <div class="research__content">
+          <span class="research__label">CASE STUDY</span>
+          <h2 class="research__title">Generate AI audio overviews with Copilot in SharePoint News</h2>
+          <p class="research__description">
+            An AI-powered news feed in SharePoint that turns updates into quick briefings with hands-free playback controls, helping teams catch up fast and stay aligned.
+          </p>
+          <button class="research__cta">COMING SOON</button>
+        </div>
+        <div class="research__visual">
+          <div class="audio-wave"></div>
+          <div class="copilot-icon"></div>
+        </div>
+      </div>
+    </section>
+    <section id="research" class="section research">
+      <div class="research__hero">
+        <div class="research__content">
+          <span class="research__label">CASE STUDY</span>
+          <h2 class="research__title">Generate AI audio overviews with Copilot in SharePoint News</h2>
+          <p class="research__description">
+            An AI-powered news feed in SharePoint that turns updates into quick briefings with hands-free playback controls, helping teams catch up fast and stay aligned.
+          </p>
+          <button class="research__cta">COMING SOON</button>
+        </div>
+        <div class="research__visual">
+          <div class="audio-wave"></div>
+          <div class="copilot-icon"></div>
+        </div>
       </div>
     </section>
 
@@ -161,10 +203,6 @@
         <article class="card" data-category="work">
           <img src="assets/img/home-work-5.png" alt="Project 5" loading="lazy">
           <div class="card__body"><h3>Project Five</h3><p>Service blueprint for end‑to‑end onboarding experience.</p></div>
-        </article>
-        <article class="card" data-category="work">
-          <img src="assets/img/home-work-6.png" alt="Project 6" loading="lazy">
-          <div class="card__body"><h3>Project Six</h3><p>UI system foundations: tokens, components, and docs.</p></div>
         </article>
       </div>
     </section>
@@ -347,14 +385,39 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer__inner">
-      <p>&copy; <span id="year"></span> Chanuka Jayarathna • <a href="#home" class="back-to-top">Back to top</a></p>
-      <nav aria-label="Footer">
-        <a href="#work">Work</a>
-        <a href="#research">Research</a>
-        <a href="#writing">Writing</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <div class="footer__content">
+      <div class="footer__text">
+        <h2>Feel free to hit me up. I'm looking forward to hearing from you.</h2>
+        <div class="footer__signature">
+          <span class="signature">R</span>
+        </div>
+      </div>
+      
+      <div class="footer__contact">
+        <div class="footer__socials">
+          <a href="https://www.behance.net/" target="_blank" rel="noopener" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://dribbble.com/" target="_blank" rel="noopener" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+          <a href="https://www.linkedin.com/in/chanuka-jayarathna/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="footer__email">
+          <a href="mailto:hello@chanukajayarathna.me">hello@chanukajayarathna.me</a>
+        </div>
+      </div>
+      
+      <div class="footer__nav">
+        <a href="#home">HOME</a>
+        <a href="#work">WORK</a>
+        <a href="#research">AI +</a>
+        <a href="#writing">ACHIEVEMENTS</a>
+        <a href="#writing">WRITING</a>
+        <a href="#contact">ENGAGING</a>
+        <a href="#contact">MENTORING</a>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>Chanuka Jayarathna - Portfolio - UX - AI - Product Design © 2025 - Privacy policy</p>
+      </div>
     </div>
   </footer>
 
